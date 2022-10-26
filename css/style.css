@@ -1,0 +1,117 @@
+@import url(components/UI_caroussel.css);
+
+body {
+  background-color: rgb(71, 147, 177);
+}
+
+.container{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.card{
+  padding: 20px;
+  margin: 16px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  border: 2px solid rgb(255, 255, 255);
+  margin: 15px;
+  padding: 20px;
+  text-align: center;
+ }
+
+h2 {
+ font-size: 25px;
+  color: rgb(255, 255, 255);
+  border: 2px solid rgb(255, 255, 255);
+  margin: 15px;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 100px;
+  font-family: garamond, serif;
+  color:  rgb(255, 255, 255);
+  text-align: center;
+}
+
+h4 {
+  color: rgb(255, 255, 255);
+  margin: 20px;
+} 
+
+.image_profil { 
+     width: 250px;
+     border-radius: 500px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+    }
+
+
+.border {
+  border-top: dashed rgb(255, 255, 255) 5px;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.test {
+  text-align: center;
+}
+
+
+a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+
+a:link {
+  color: rgb(255, 255, 255);
+  border-bottom: 1px solid;
+}
+
+a:visited {
+  color: rgb(255, 255, 255);
+
+}
+
+a:focus {
+  border-bottom: 1px solid;
+}
+
+a:hover {
+  border-bottom: 1px solid;
+}
+
+
+.image_linkedin {
+  width: 50px;
+  border-radius: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+/*media queries*/
+
+@media (max-width: 720px) {
+  .container{
+    width: 450px;
+  }
+}
+
+@media (max-width: 720px){
+  .container{
+    width: 250px;
+  }
+}
